@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldCheck, Flame, Users, Clock, Star, Award, Sparkles } from 'lucide-react';
+import steamRoast from '../assets/images/steam_roast_1784020560823.jpg';
 
 export default function About() {
   const commitments = [
@@ -86,7 +87,7 @@ export default function About() {
             <div className="absolute -inset-2 bg-gradient-to-r from-gold-500 to-gold-400 rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition duration-500" />
             <div className="relative bg-slate-900 border border-gold-900/30 rounded-2xl p-4 overflow-hidden">
               <img
-                src="/src/assets/images/steam_roast_1784020560823.jpg"
+                src={steamRoast}
                 alt="Flavourz Lounge Gourmet Steam Roast Platter"
                 referrerPolicy="no-referrer"
                 className="w-full h-64 object-cover rounded-xl shadow-lg transition duration-500 group-hover:scale-102"
