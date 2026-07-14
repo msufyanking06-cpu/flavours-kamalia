@@ -13,7 +13,7 @@ export default function Hero({ onExploreMenu, onBookTable, onOrderOnline }: Hero
       {/* Background Image with elegant overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="../../assets/images/lounge_interior_1784020542143.jpg"
+          src="../assets/images/lounge_interior_1784020542143.jpg"
           alt="Flavourz Lounge Interior"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105 filter blur-[1px] brightness-30 contrast-105"
