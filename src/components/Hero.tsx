@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChefHat, Compass, Calendar, Sparkles } from 'lucide-react';
+import loungeImg from '../assets/images/lounge_interior_1784020542143.jpg';
 
 interface HeroProps {
   onExploreMenu: () => void;
@@ -13,7 +14,7 @@ export default function Hero({ onExploreMenu, onBookTable, onOrderOnline }: Hero
       {/* Background Image with elegant overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="../assets/images/lounge_interior_1784020542143.jpg"
+          src={loungeImg}
           alt="Flavourz Lounge Interior"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105 filter blur-[1px] brightness-30 contrast-105"
