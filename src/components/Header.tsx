@@ -71,13 +71,12 @@ export default function Header({
           onClick={() => handleNavClick('home')}
           className="flex items-center gap-3 group text-left cursor-pointer"
         >
-          <div className="relative w-10 h-10 flex items-center justify-center bg-gradient-to-br from-gold-400 to-gold-600 rounded-lg shadow-lg shadow-gold-950/50">
-            {/* SVG Custom Premium Crown/F logo */}
-            {/* <svg className="w-6 h-6 text-slate-950" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          {/* <div className="relative w-10 h-10 flex items-center justify-center bg-gradient-to-br from-gold-400 to-gold-600 rounded-lg shadow-lg shadow-gold-950/50">
+             <svg className="w-6 h-6 text-slate-950" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 2L15 8L22 9L17 14L18 21L12 17L6 21L7 14L2 9L9 8L12 2Z" fill="currentColor"/>
-            </svg> */}
+            </svg> 
             <div className="absolute -inset-0.5 bg-gradient-to-br from-gold-400 to-gold-600 rounded-lg blur-md opacity-20 group-hover:opacity-60 transition duration-300" />
-          </div>
+          </div> */}
           <div>
             <span className="block text-xl font-display font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-100 to-gold-400">
               FLAVOURZ
