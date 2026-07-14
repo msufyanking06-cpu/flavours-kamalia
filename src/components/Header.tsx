@@ -73,9 +73,9 @@ export default function Header({
         >
           <div className="relative w-10 h-10 flex items-center justify-center bg-gradient-to-br from-gold-400 to-gold-600 rounded-lg shadow-lg shadow-gold-950/50">
             {/* SVG Custom Premium Crown/F logo */}
-            <svg className="w-6 h-6 text-slate-950" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            {/* <svg className="w-6 h-6 text-slate-950" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 2L15 8L22 9L17 14L18 21L12 17L6 21L7 14L2 9L9 8L12 2Z" fill="currentColor"/>
-            </svg>
+            </svg> */}
             <div className="absolute -inset-0.5 bg-gradient-to-br from-gold-400 to-gold-600 rounded-lg blur-md opacity-20 group-hover:opacity-60 transition duration-300" />
           </div>
           <div>
@@ -83,7 +83,7 @@ export default function Header({
               FLAVOURZ
             </span>
             <span className="block text-[9px] font-mono tracking-[0.3em] uppercase text-gold-400 -mt-1">
-              Lounge & Grill
+              Restaurant & Cafe
             </span>
           </div>
         </button>
