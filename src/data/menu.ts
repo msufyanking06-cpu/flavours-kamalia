@@ -42,7 +42,7 @@ export const menuItems: MenuItem[] = [
     description: 'Two smash patties of premium prime beef, layered with double melted sharp cheddar, caramelized balsamic onions, crisp butterhead lettuce, and our house special smokey burger dressing on a butter-toasted brioche bun.',
     price: 850,
     category: 'burgers',
-    image: './assets/images/gourmet_burger_1784020579522.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmuuKNTCkZcLuSVYxJCH3lOC-mVlhbhzegY6Uswm8jw&s=10',
     rating: 4.9,
     isSpicy: false,
     estimatedPrepTime: 12
