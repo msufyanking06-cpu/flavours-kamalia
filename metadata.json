@@ -1,0 +1,6 @@
+{
+  "name": "Flavourz Lounge",
+  "description": "Premium restaurant website for Flavourz Lounge, Kamalia, Pakistan, featuring online ordering, reservation system, interactive menu, and reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
