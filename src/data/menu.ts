@@ -1,5 +1,4 @@
 import { MenuItem } from '../types';
-
 export const menuItems: MenuItem[] = [
   // --- SPECIALTIES ---
   {
@@ -8,7 +7,7 @@ export const menuItems: MenuItem[] = [
     description: 'Our signature whole chicken joint steam roast. Succulent and tender inside, perfectly crisped outside in a secret blend of local aromatic spices. Topped with sesame seeds and served with hand-carved lemon slices and mint chutney.',
     price: 1390,
     category: 'specialties',
-    image: '/src/assets/images/steam_roast_1784020560823.jpg',
+    image: '/assets/images/steam_roast_1784020560823.jpg',
     rating: 4.8,
     isSpicy: true,
     estimatedPrepTime: 25
