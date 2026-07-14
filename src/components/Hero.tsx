@@ -54,15 +54,15 @@ export default function Hero({ onExploreMenu, onBookTable, onOrderOnline }: Hero
         <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-6 pt-2">
           <div className="flex items-center gap-2 px-4 py-2 bg-slate-900/80 border border-gold-900/10 rounded-xl">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-            <span className="text-xs font-mono text-gray-300 font-medium uppercase tracking-wider">● Dine-In Available</span>
+            <span className="text-xs font-mono text-gray-300 font-medium uppercase tracking-wider">Dine-In Available</span>
           </div>
           <div className="flex items-center gap-2 px-4 py-2 bg-slate-900/80 border border-gold-900/10 rounded-xl">
             <span className="w-2 h-2 rounded-full bg-gold-400" />
-            <span className="text-xs font-mono text-gray-300 font-medium uppercase tracking-wider">● Premium Takeaway</span>
+            <span className="text-xs font-mono text-gray-300 font-medium uppercase tracking-wider">Premium Takeaway</span>
           </div>
           <div className="flex items-center gap-2 px-4 py-2 bg-slate-900/80 border border-gold-900/10 rounded-xl">
             <span className="w-2 h-2 rounded-full bg-amber-500" />
-            <span className="text-xs font-mono text-gray-300 font-medium uppercase tracking-wider">● Super-Fast Delivery</span>
+            <span className="text-xs font-mono text-gray-300 font-medium uppercase tracking-wider">Super-Fast Delivery</span>
           </div>
         </div>
 
